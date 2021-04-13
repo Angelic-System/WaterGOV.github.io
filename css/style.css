@@ -83,3 +83,14 @@ img {
 .logochirren {
     order: -1;
 }
+
+.btmbar{
+    background: url(https://i.imgur.com/kPclESu.jpg);
+    color: white;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.btmbar .flex {
+    justify-content: space-between;
+}
