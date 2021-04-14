@@ -12,11 +12,6 @@ body{
     background: #181822;
 }
 
-#divwow{
-    color: black;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-}
 a{
     text-decoration: none;
     color: #fff;
@@ -27,12 +22,14 @@ a{
     background-color: #262626;
 }
 .muchclassthing{
+    box-shadow: #555 0 0 5px;
     width: 700px;
     margin: auto;
     padding: auto;
     color:black;
+    border-radius: 5px;
     text-align: center;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: #808aff;
 }
 h1, h2{
     font-weight: 300;
@@ -45,19 +42,21 @@ p{
 }
 
 img {
-    width: 30%;
+    width: 6%;
   }
 
-.navbar{
+  .navbar{
+    overflow: hidden;
+    margin: auto;
+    height: 80px;
     background: url(https://i.imgur.com/kPclESu.jpg);
-    color: white;
-    height: 70px;
-}
-
-.navbar .flex{
-    justify-content: space-between;
-}
-
+  }
+  .navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+  }
 
 .navbar ul {
     display: flex;
